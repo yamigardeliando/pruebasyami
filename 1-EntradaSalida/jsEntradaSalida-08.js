@@ -7,13 +7,16 @@ function SacarResto() {
   var dividendo;
   var divisor;
   var resultado;
-
+  console.log(resultado)
  // dividendo = 26;
   //divisor = 5;//
   dividendo= document.getElementById("txtIdNumeroDividendo").value
 divisor= document.getElementById("txtIdNumeroDivisor").value
-  resultado = dividendo % divisor;
-  console.log(resultado)
+resultado = dividendo % divisor;
+console.log(resultado)
+ document.getElementById("txtIdNumeroDivisor").value = "El valor del resto es: " + resultado
+ resultado=6546
+   console.log(resultado)
 }
 /*function SacarResto()
 {
