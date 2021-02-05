@@ -10,11 +10,11 @@ var apellido;
 var mensaje;
 
 nombre = prompt("ingrese nombre : ");
-mensajeDeRespuesta="su nombre es : " +nombre;
-document.getElementById("txtIdNombre").value=mensajeDeRespuesta;
+// mensajeDeRespuesta="su nombre es : " +nombre;
+//document.getElementById("txtIdNombre").value=mensajeDeRespuesta;
 apellido= prompt ("ingrese su apellido");
 años = prompt ("ingrese su edad :");
-mensajeDeRespuesta= "su edad es "+ años; 
+
 document.getElementById("txtIdEdad").value=mensajeDeRespuesta; 
 mensaje= apellido, + " usted se llama " + nombre + " y  tiene "+ años + " años"; 
 alert (mensaje); 
