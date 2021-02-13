@@ -14,9 +14,9 @@ function mostrar()
  	var = nombre;
  	nombre = prompt("ingrese su nombre", "natalia natalia");
  	alert("nombre");
-	 alert(nombre);
+	alert(nombre);
 	 
-	 alert ("su nombre es: " + nombre );
+	alert ("su nombre es: " + nombre );
 
 }
 
