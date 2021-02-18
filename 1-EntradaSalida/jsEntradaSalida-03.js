@@ -14,3 +14,13 @@ function mostrar()
 }
 
 
+var preciobase;
+var localidad;
+var EstacionDelAño;
+var aumento;
+var descuento;
+var precioFinal;
+
+preciobase=15000
+localidad=prompt("ingrese la localidad a la que desea viajar ");
+EstacionDelAño=prompt( "ingrese la estacion del año en la que desea viajar ");

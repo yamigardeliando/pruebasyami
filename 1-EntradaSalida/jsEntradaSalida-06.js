@@ -7,11 +7,22 @@ function sumar()
 //
 {
 var numerouno;
-var numerodos; 
+var numerodos;
+var suma;
 
-numerouno=document.getElementsById("txtIdNumeroUno").value;
-numerodos=document.getElementsById("txtIdNumeroDos").value; 
-
+numerouno=document.getElementById("txtIdNumeroUno").value;
+numerouno= parseInt ( numerouno);
+numerodos=parseInt (numerouno);
+numerodos=document.getElementById("txtIdNumeroDos").value; 
+suma= numerouno+numerodos;
+alert ( suma );
 	
 }
 
+if()
+{
+
+}
+else{
+    
+}

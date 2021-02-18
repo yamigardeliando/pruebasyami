@@ -16,6 +16,7 @@ apellido= prompt ("ingrese su apellido");
 años = prompt ("ingrese su edad :");
 
 document.getElementById("txtIdEdad").value=mensajeDeRespuesta; 
+
 mensaje= apellido, + " usted se llama " + nombre + " y  tiene "+ años + " años"; 
 alert (mensaje); 
 }
